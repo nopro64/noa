@@ -1,0 +1,37 @@
+.body_backgorund {
+    background-image: url("bg1.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  /*Ocultar el overflow (sobrepasar:escondido) para que la página no
+  se desplace.*/
+  body{
+    overflow: hidden;
+    cursor: pointer;
+  }
+  h1
+  {
+      color: rgb(55, 255, 0); 
+      font-size: 40px;
+  }
+  #myCanvas
+  {
+      border-width:10px;
+      background-color: rgb(0, 20, 200); 
+      border-style:ridge;
+  }
+
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(223, 15, 15);
+    padding: 10px 42px;
+    font-size: 16px;
+  }
+
+  input
+  {
+    margin-right: 20px;
+  }
+  
